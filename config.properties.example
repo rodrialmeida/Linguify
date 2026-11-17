@@ -1,0 +1,11 @@
+# Linguify - configuracao do banco de dados.
+# Copie este arquivo para "config.properties" (na pasta de execucao) e ajuste os valores.
+# O arquivo config.properties NAO e versionado (esta no .gitignore).
+#
+# Tambem e possivel usar variaveis de ambiente, que tem prioridade sobre o arquivo:
+#   LINGUIFY_DB_URL, LINGUIFY_DB_USER, LINGUIFY_DB_PASSWORD
+# e LINGUIFY_CONFIG para indicar outro caminho para este arquivo.
+
+db.url=jdbc:mysql://localhost:3306/login?characterEncoding=UTF-8
+db.user=root
+db.password=

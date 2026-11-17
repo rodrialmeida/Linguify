@@ -1,0 +1,74 @@
+# Maven
+target/
+
+# Maven Wrapper (jar baixado localmente)
+.mvn/wrapper/maven-wrapper.jar
+
+# Arquivos compilados e empacotados
+*.class
+*.jar
+*.war
+
+# IDEs (configuracao local, nao publicar)
+.idea/
+*.iml
+.vscode/
+.kiro/
+.classpath
+.project
+.settings/
+nbproject/private/
+nbbuild/
+nbdist/
+out/
+build/
+dist/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs e temporarios
+*.log
+*.tmp
+*.swp
+*.bak
+*~
+
+# Backups de banco de dados (NUNCA versionar)
+backups/
+
+# Dumps e scripts SQL locais (somente db/schema.sql e publicado: estrutura, sem dados)
+*.sql
+!db/schema.sql
+
+# Arquivos compactados (backups, copias do projeto)
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# Configuracao local com credenciais reais (apenas o *.example e versionado)
+config.properties
+src/main/resources/config.properties
+.env
+.env.*
+!.env.example
+
+# Chaves, certificados e segredos
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+secrets*
+*.secret
+credentials*
+
+# Codigo antigo preservado so localmente (nao publicar)
+legacy/
+
+# Material local: imagens originais sem licenca confirmada, fotos de pessoas etc.
+assets-locais/

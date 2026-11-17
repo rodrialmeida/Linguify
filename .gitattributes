@@ -1,0 +1,29 @@
+# Normaliza os finais de linha no repositorio (LF) e define a regra de cada tipo de arquivo.
+* text=auto
+
+# Scripts do Maven Wrapper: o shell script PRECISA de LF; o .cmd do Windows usa CRLF.
+mvnw          text eol=lf
+mvnw.cmd      text eol=crlf
+*.cmd         text eol=crlf
+*.bat         text eol=crlf
+*.sh          text eol=lf
+
+# Codigo e documentacao em LF
+*.java        text eol=lf
+*.xml         text eol=lf
+*.properties  text eol=lf
+*.example     text eol=lf
+*.sql         text eol=lf
+*.md          text eol=lf
+*.txt         text eol=lf
+.gitignore    text eol=lf
+.gitattributes text eol=lf
+
+# Binarios (nao converter)
+*.png         binary
+*.jpg         binary
+*.jpeg        binary
+*.gif         binary
+*.ico         binary
+*.jar         binary
+*.zip         binary
